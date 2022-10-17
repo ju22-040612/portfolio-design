@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    width: 100%;
+}
+
+body{
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.header-menu{       
+    display: flex;
+    position: absolute;
+    width: 100%;
+    padding: 8px;
+    padding-bottom: 32px;
+    padding-top: 32px;
+    height: 60px;
+    background-color: #724796;
+}
+
+.header-menu nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.lista-menu {
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex
+}
+
+.lista-menu li>a {
+    color: #FFF;
+    font-size: 18px;
+    text-decoration: inherit;
+}
+
+.principal-container{
+    width: 101%;
+    height: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-colagens{
+    font-size: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-flyer{
+    font-size: 50px;
+    color:rgb(14, 9, 9);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ilustracao-manual{
+    font-size: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-footer{
+    color:#FFF;
+    background-color: rgb(104, 51, 173);
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
